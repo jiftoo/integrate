@@ -1,12 +1,11 @@
 [package]
 name = "integrate"
-version = "0.1.0"
+version = "1.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-meval = "0.2"
 fasteval = { version = "0.2.2", features = ["unsafe-vars"] }
 
 [features]
